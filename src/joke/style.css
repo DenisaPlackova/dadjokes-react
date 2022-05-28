@@ -1,0 +1,87 @@
+.joke__container {
+  display: flex;
+  max-width: 30rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.joke__user {
+  flex: 0 0 auto;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.user-avatar {
+  width: 5rem;
+  height: 5rem;
+}
+
+.user-name {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.joke__text {
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  margin: 0;
+  line-height: 150%;
+}
+
+.likes__container {
+  display: flex;
+  max-width: 30rem;
+  justify-content: end;
+  margin: 0 auto;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.likes-count {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  border: none;
+  background: white;
+}
+
+.btn-like--up {
+  background-color: #00e268;
+  background-image: url('img/like-up.png');
+}
+
+.btn-like {
+  border: none;
+  outline: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-size: 1.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.likes-count--up {
+  color: #00e268;
+}
+
+.likes-count--down {
+  color: #ff5654;
+}
+
+.btn-like--down {
+  background-color: #ff5654;
+  background-image: url('img/like-down.png');
+}
+
+.joke {
+  margin-bottom: 2rem;
+}
+
+.joke__body {
+  display: flex;
+}
